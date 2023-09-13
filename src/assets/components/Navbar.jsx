@@ -95,7 +95,7 @@ import hamburg from '../images/hamburger.svg';
            </form>
          </div>
        </div>
-       <div className='flex xs:ml-[50px] md:ml-[150px] mt-[50px] xs:mb-[20px]'>
+       <div className='flex xs:ml-[50px] sm:ml-[100px] md:ml-[150px] xl:ml-[280px] mt-[50px] xs:mb-[20px]'>
          <p className='flex font-bold gap-2 xs:text-3xl md:text-5xl flex-wrap'> About <span className='text-amber-500'>us</span></p>
        </div>
        <div className='flex flex-wrap justify-around items-center'>
