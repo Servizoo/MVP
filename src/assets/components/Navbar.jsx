@@ -1,6 +1,6 @@
 import React from 'react'
 import Call from '../images/call_us.svg';
-import Phone from '../images/phone.svg';
+import Phone from '../images/Phone.svg';
 import Mail from '../images/mail.svg';
 import MailOut from '../images/Mail_outline.svg';
 import background from '../images/bg.svg';
