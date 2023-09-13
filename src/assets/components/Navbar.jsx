@@ -99,7 +99,7 @@ import hamburg from '../images/hamburger.svg';
          <p className='flex font-bold gap-2 xs:text-3xl md:text-5xl flex-wrap'> About <span className='text-amber-500'>us</span></p>
        </div>
        <div className='flex justify-around items-center'>
-         <div className='flex flex-col md:w-[600px] gap-4 md:ml-[50px] xs:pl-[40px]'>
+         <div className='flex flex-col md:w-[600px] gap-4 md:ml-[50px] xs:pl-[10px]'>
            <p className='text-xl'>Welcome to [Your Website Name], your trusted platform for connecting Kenyans with skilled and reliable handymen. We understand that finding the right plumber, electrician,or painter can be a daunting task.
              That's why we're here to simplify the process, making it easier for you to get the help you need, when you need it.
            </p>
