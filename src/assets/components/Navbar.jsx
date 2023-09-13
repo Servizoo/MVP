@@ -99,11 +99,11 @@ import hamburg from '../images/hamburger.svg';
          <p className='flex font-bold gap-2 xs:text-3xl md:text-5xl flex-wrap'> About <span className='text-amber-500'>us</span></p>
        </div>
        <div className='flex justify-around items-center'>
-         <div className='flex flex-col xs:w-[90%] justify-center items-center md:w-[600px] gap-4 md:ml-[50px] '>
-           <p className='md:text-xl'>Welcome to [Your Website Name], your trusted platform for connecting Kenyans with skilled and reliable handymen. We understand that finding the right plumber, electrician,or painter can be a daunting task.
+         <div className='flex flex-col xs:w-[80%] justify-center items-center md:w-[600px] gap-4 md:ml-[50px] '>
+           <p className='xs:text-sm md:text-xl'>Welcome to [Your Website Name], your trusted platform for connecting Kenyans with skilled and reliable handymen. We understand that finding the right plumber, electrician,or painter can be a daunting task.
              That's why we're here to simplify the process, making it easier for you to get the help you need, when you need it.
            </p>
-           <p className='md:text-xl'>
+           <p className='xs:text-sm md:text-xl'>
              Our mission is simple: to bridge the gap between Kenyan homeowners and skilled tradespeople. We believe that everyone deserves access to high-quality
              services that can transform their living spaces. Whether it's fixing a leaky faucet, rewiring your home, or giving your walls a fresh coat of paint,
              we're committed to helping you find the right professionals for the job.
