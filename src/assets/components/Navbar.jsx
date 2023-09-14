@@ -40,7 +40,7 @@ import hamburg from '../images/hamburger.svg';
          <div className='hidden md:flex md:w-[564px] lg:w-[564px] xl:w-[700px] md:h-[180px] lg:h-[180px] lg:h-[250px] ml-20'>
            <p className='flex gap-4 font-bold text-white md:text-5xl lg:text-5xl xl:text-7xl flex-wrap'>The <span className='text-amber-500'>Best</span> and <span className='text-amber-500'>Most</span> Accessible Service <span> Providers</span> </p>
          </div>
-         <div className=' xs:w-[400px] md:w-[400px] lg:w-[600px] xs:h-[600px] md:h-[400px] lg:h-[550px] bg-black xs:bg-opacity-30 md:bg-opacity-60'>
+         <div className=' xs:w-[400px] md:w-[400px] lg:w-[600px] xs:h-[600px] md:h-[420px] lg:h-[550px] bg-black xs:bg-opacity-30 md:bg-opacity-60'>
            <div className='flex xs:jusftify-start md:justify-center items-center xs:mt-[30px] md:mt-[30px] xl:mt-[50px]'>
              <p className='md:text-4xl lg:text-7xl xs:pl-[20px] xs:mb-[20px] text-white'>Request Services </p>
            </div>
@@ -91,7 +91,7 @@ import hamburg from '../images/hamburger.svg';
                  </div>
                </div>
              </div>
-             <button type="submit" className="text-white bg-amber-500 hover:bg-bamber-500 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium text-sm xs:w-[360px] md:w-full lg:w-[260px] sm:w-auto px-5 py-2.5 text-center dark:bg-amber-500 dark:hover:bg-amber-500 dark:focus:ring-amber-500">Request</button>
+             <button type="submit" className="text-white bg-amber-500 hover:bg-bamber-500 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium text-sm xs:w-[360px] md:w-[100px] lg:w-[260px] sm:w-auto px-5 py-2.5 text-center dark:bg-amber-500 dark:hover:bg-amber-500 dark:focus:ring-amber-500">Request</button>
            </form>
          </div>
        </div>
