@@ -9,7 +9,7 @@ type Props = {
 };
 
 const ContactUs = ({ setSelectedPage }: Props) => {
-  const inputStyles = `mb-5 w-full rounded-lg bg-gray-20
+  const inputStyles = `mb-5 w-full rounded-lg bg-black text-white bg-opacity-40 dark:focus:border-white
   px-5 py-3 placeholder-white`;
 
   const {
@@ -59,7 +59,7 @@ const ContactUs = ({ setSelectedPage }: Props) => {
             <form
               target="_blank"
               onSubmit={onSubmit}
-              action="https://formsubmit.co/e8a5bdfa807605332f809e5656e27c6e"
+              action="https://formsubmit.co/"
               method="POST"
             >
               <input
@@ -121,36 +121,6 @@ const ContactUs = ({ setSelectedPage }: Props) => {
               >
                 SUBMIT
               </button>
-              {/* <div className="xl:justify-center flex items-center xs:mt-[50px] xs:flex-col xs:items-center xs:justify-center xs:gap-8  md:flex-row md:justify-around">
-                <div className="xl:w-[800px] mb-[50px] flex items-center justify-center rounded bg-black xs:h-[120px] xs:w-[350px] sm:w-[550px] md:h-[257px]">
-                  <div className="flex items-center justify-center gap-2">
-                    <div className="bg-grey flex w-[130px] items-center justify-center rounded-full xs:h-[40px] xs:w-[40px] md:h-[130px] ">
-                      <img src={Phone} alt='Icon' />
-                    </div>
-                  </div>
-                  <div className="flex flex-col items-center justify-center gap-4">
-                    <p className="pl-[50px] text-sm text-white">
-                      Call us for service
-                    </p>
-                    <p className="pl-[50px] text-xl font-bold text-white">
-                      +254 715 555 351
-                    </p>
-                  </div>
-                </div>
-                <div className="xl:w-[800px] mb-[50px] flex items-center justify-center rounded bg-amber-500 xs:h-[120px] xs:w-[350px] sm:w-[550px] md:h-[257px]">
-                  <div className="flex items-center justify-center rounded-full bg-white xs:h-[40px] xs:w-[40px] md:h-[130px] md:w-[130px] ">
-                    <img src={MailOut} alt='Icon' />
-                  </div>
-                  <div className="flex flex-col items-center justify-center gap-4">
-                    <p className="pl-[50px] text-sm text-white">
-                      Mail us anytime
-                    </p>
-                    <p className="pl-[50px] text-xl font-bold text-white">
-                      info@app.com
-                    </p>
-                  </div>
-                </div>
-              </div> */}
             </form>
           </motion.div>
 

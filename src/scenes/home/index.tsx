@@ -10,6 +10,7 @@ import AnchorLink from "react-anchor-link-smooth-scroll";
 import { motion } from "framer-motion";
 import HText from "@/shared/HText";
 import SearchBar from "@/shared/SearchBar";
+import "./index.css";
 
 type Props = {
   setSelectedPage: (value: SelectedPage) => void;
@@ -42,11 +43,32 @@ const Home = ({ setSelectedPage }: Props) => {
               visible: { opacity: 1, x: 0 },
             }}
           >
-            <div className="">
-              <HText>
-                Connect with experienced{" "}
-                <span className="text-secondary-500">Fundis</span>
-              </HText>
+            <div className="flex items-center">
+              <HText>Connect with experienced</HText>
+              <span className="text-secondary-500">
+                <ul className="dynamic-txts">
+                  <li>
+                    <span className="basis-3/5 font-montserrat text-4xl font-bold">
+                      Electrician
+                    </span>
+                  </li>
+                  <li>
+                    <span className="basis-3/5 font-montserrat text-4xl font-bold">
+                      Plumber
+                    </span>
+                  </li>
+                  <li>
+                    <span className="basis-3/5 font-montserrat text-4xl font-bold">
+                      Painter
+                    </span>
+                  </li>
+                  <li>
+                    <span className="basis-3/5 font-montserrat text-4xl font-bold">
+                      Carpenter
+                    </span>
+                  </li>
+                </ul>
+              </span>
             </div>
           </motion.div>
 
