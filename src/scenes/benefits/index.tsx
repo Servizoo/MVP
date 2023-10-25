@@ -10,7 +10,7 @@ import { motion } from "framer-motion";
 import BenefitsPageGraphic from "@/assets/BenefitsPageGraphic.svg";
 import Benefit from "./Benefit";
 
-const benefits: Array<BenefitType> = [
+const SPs: Array<BenefitType> = [
   {
     icon: <HomeModernIcon className="h-6 w-6" />,
     title: "State of the Art Facilities",
@@ -45,25 +45,8 @@ type Props = {
 const About = ({ setSelectedPage }: Props) => {
   return (
     <section id="benefits" className="mx-auto min-h-[60%] w-5/6">
-      <motion.div onViewportEnter={() => setSelectedPage(SelectedPage.About)}>
+      <motion.div onViewportEnter={() => setSelectedPage(SelectedPage.AboutUs)}>
         {/* BENEFITS */}
-        {/* <motion.div
-          className=" items-center justify-between md:flex"
-          initial="hidden"
-          whileInView="visible"
-          viewport={{ once: true, amount: 0.5 }}
-          variants={container}
-        >
-          {benefits.map((benefit: BenefitType) => (
-            <Benefit
-              key={benefit.title}
-              icon={benefit.icon}
-              title={benefit.title}
-              description={benefit.description}
-              setSelectedPage={setSelectedPage}
-            />
-          ))}
-        </motion.div> */}
 
         {/* GRAPHICS AND DESCRIPTION */}
         <div className="mt-16 items-center justify-between gap-20 md:mt-28 md:flex">
@@ -132,6 +115,23 @@ const About = ({ setSelectedPage }: Props) => {
             </div>
           </div>
         </div>
+        <motion.div
+          className=" items-center justify-between md:flex"
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true, amount: 0.5 }}
+          variants={container}
+        >
+          {SPs.map((benefit: BenefitType) => (
+            <Benefit
+              key={benefit.title}
+              icon={benefit.icon}
+              title={benefit.title}
+              description={benefit.description}
+              setSelectedPage={setSelectedPage}
+            />
+          ))}
+        </motion.div>
       </motion.div>
     </section>
   );
